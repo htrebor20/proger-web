@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-salable=no, initial-scale=1.0, maximum-scale=1.0, minium-scale=1.0"
+    />
+    <meta name="description" content="Gestor de Proyectos" />
+    <meta name="keywords" content="Gestor, Proyectos" />
+    <meta name="author" content="Proger Solutions" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <title>ProGer Solutions</title>
+    <link rel="shortcut icon" href="Imagenes/pg.png" type="image/x-icon" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" type="text/css" href="Style_contactenos.css" />
+  </head>
+
+  <body>
+    <header>
+      <section id="cabeza">
+        <img
+          class="logo"
+          src="Imagenes/logo proger color.png"
+          alt="Logo Proger"
+        />
+        <nav class="lista">
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="quienesSomos.html">Nosotros</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="contactenos.html">Contáctenos</a></li>
+          </ul>
+        </nav>
+        <div iv class="inisesion">
+          <button class="btn-inicio-sesion" onclick="btniniciar()">
+            <strong class="inicio-sesion">Iniciar Sesión </strong>
+            <script>
+              function btniniciar() {
+                window.open("https://progerapp.000webhostapp.com/", "_blank");
+              }
+            </script>
+          </button>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <div class="contact-container">
+        <div class="contact-img-container">
+          <span class="title">Contáctenos</span>
+          <img
+            class="contact-img"
+            src="Imagenes/contact.png"
+            alt="Logo Proger"
+          />
+        </div>
+        <div class="contact-info">
+          <p>ProGer tiene su sede en Cali, Colombia.</p>
+          <p>Nuestro número de teléfono: +602 442 12 23</p>
+          <p>Nuestra dirección: Calle 5 # 23-34</p>
+        </div>
+      </div>
+      <div class="form-container">
+        <form class="formulario">
+          <img class="small-logo" src="Imagenes/pg.png" alt="Logo Proger" />
+          <input type="Nombre" placeholder="Ingresa tu nombre completo" />
+          <input type="email" placeholder="Ingresa tú correo electrónico" />
+          <input type="Telefono" placeholder="Ingresa tu número de teléfono" />
+          <textarea
+            name="mensaje"
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Déjanos un mensaje"
+          ></textarea>
+          <div iv class="inisesion">
+            <button class="btn-inicio-sesion" onclick="btniniciar()">
+              <strong class="inicio-sesion">Enviar</strong>
+            </button>
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <section class="foot">
+        <div id="copyright">
+          Copyright&copy; 2023 - Proger Solutions - Todos los derechos
+          reservados
+        </div>
+        <nav class="Terminos">
+          <ul>
+            <li><a href="politicas.html">Política de Privacidad</a></li>
+            <li><a href="terminos.html">Terminos</a></li>
+          </ul>
+        </nav>
+        <section class="links">
+          <a href="https://www.facebook.com">
+            <img src="Imagenes/face.png" alt="Facebook"
+          /></a>
+          <a href="https://www.instagram.com/">
+            <img src="Imagenes/inst.png" alt="Instagram"
+          /></a>
+          <a href="https://www.linkedin.com/">
+            <img src="Imagenes/link.png" alt="Linkedin"
+          /></a>
+          <a href="https://github.com/">
+            <img src="Imagenes/git2.png" alt="GitHub"
+          /></a>
+          <a href="https://www.youtube.com/">
+            <img src="Imagenes/you.png" alt="Youtube"
+          /></a>
+        </section>
+      </section>
+    </footer>
+  </body>
+</html>

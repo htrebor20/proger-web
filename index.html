@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-salable=no, initial-scale=1.0, maximum-scale=1.0, minium-scale=1.0"
+    />
+    <meta name="description" content="Gestor de Proyectos" />
+    <meta name="keywords" content="Gestor, Proyectos" />
+    <meta name="author" content="Proger Solutions" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <title>ProGer Solutions</title>
+    <link rel="shortcut icon" href="Imagenes/pg.png" type="image/x-icon" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" type="text/css" href="styloIndex.css" />
+  </head>
+  <body>
+    <header>
+      <section id="cabeza">
+        <img
+          class="logo"
+          src="Imagenes/logo proger color.png"
+          alt="Logo Proger"
+          title="ProGer Solutions"
+        />
+        <nav class="lista">
+          <ul>
+            <li><a href="quienesSomos.html">Nosotros</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="contactenos.html">Contáctenos</a></li>
+          </ul>
+        </nav>
+        <div iv class="inisesion">
+          <button class="btn-inicio-sesion" onclick="btniniciar()">
+            <strong class="inicio-sesion">Iniciar Sesión </strong>
+            <script>
+              function btniniciar() {
+                window.open("https://progerapp.000webhostapp.com/", "_blank");
+              }
+            </script>
+          </button>
+        </div>
+      </section>
+    </header>
+
+    <img id="banner" src="Imagenes/banner_pro72.jpg" />
+    <section id="comienza">
+      <img id="back" src="Imagenes/banerProger.webp" />
+      <div class="imgBack">
+        <h1>COLABORACION EN</h1>
+        <h2>TIEMPO REAL</h2>
+        <button class="btn-comienza-ahora" onclick="btncomienza()">
+          <strong class="comienza-ahora">Comienza Ahora</strong>
+        </button>
+      </div>
+    </section>
+    <img id="banner2" src="Imagenes/ban.jpg" />
+    <section id="implementa">
+      <h1>Implementa <strong class="proger">PROGER</strong> en tu empresa</h1>
+      <textarea class="correo">Ingresa tu correo electrónico</textarea>
+    </section>
+
+    <footer>
+      <section class="foot">
+        <div id="copyright">
+          Copyright&copy; 2023 - Proger Solutions - Todos los derechos
+          reservados
+        </div>
+        <nav class="Terminos">
+          <ul>
+            <li><a href="politicas.html">Política de Privacidad</a></li>
+            <li><a href="terminos.html">Terminos</a></li>
+          </ul>
+        </nav>
+        <section class="links">
+          <a href="https://www.facebook.com">
+            <img src="Imagenes/face.png" alt="Facebook"
+          /></a>
+          <a href="https://www.instagram.com/">
+            <img src="Imagenes/inst.png" alt="Instagram"
+          /></a>
+          <a href="https://www.linkedin.com/">
+            <img src="Imagenes/link.png" alt="Linkedin"
+          /></a>
+          <a href="https://github.com/">
+            <img src="Imagenes/git2.png" alt="GitHub"
+          /></a>
+          <a href="https://www.youtube.com/">
+            <img src="Imagenes/you.png" alt="Youtube"
+          /></a>
+        </section>
+      </section>
+    </footer>
+  </body>
+</html>

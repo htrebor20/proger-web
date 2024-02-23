@@ -1,0 +1,400 @@
+* {
+    font-family: "Rubik", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    /* line-height: 48px; */
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+
+}
+
+header {
+    width: 100%;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    display: flex;
+    background: url(Imagenes/lienas.jpg);
+    /* background-size: 100%; */
+    background-repeat: no-repeat;
+    background-position: 100%;
+}
+
+/* HEADER*/
+
+#cabeza {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: transparent;
+    padding: 0.5rem;
+}
+
+/* LOGO */
+
+.logo {
+    max-width: 220px;
+}
+
+/* MENU */
+
+nav {
+    display: grid;
+    justify-content: center;
+    /* Centrar horizontalmente en dispositivos pequeños */
+    /*align-items: center; /* Centrar verticalmente en dispositivos pequeños */
+    grid-column: 1 / -1;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+header nav a {
+    display: inline-block;
+    color: #303C7A;
+    font-size: 16px;
+    text-decoration: none;
+    line-height: normal;
+    font-weight: bold;
+    font-family: Verdana;
+    transition: all 200ms ease;
+}
+
+header nav a:hover {
+    color: #f56f3a;
+}
+
+/* BOTON INICIO DE SESION */
+
+.inisesion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: 120px;
+    white-space: nowrap;
+}
+
+.btn-inicio-sesion {
+    background: #FA7811;
+    border: 2px solid #303C7A;
+    padding: 0 0.2rem;
+    height: 44px;
+    border-radius: 15px;
+    color: #0A3871;
+    transition: 0.2s all;
+    cursor: pointer;
+    text-align: center;
+    /* line-height: 40px; */
+    /* Centra el texto verticalmente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inicio-sesion {
+    font-size: 20px;
+    background: transparent;
+}
+
+.btn-inicio-sesion:hover {
+    background: #303C7A;
+    color: #D8DFE8;
+    transform: scale(0.9);
+}
+
+/* IMAGEN BANNER */
+
+#banner {
+    width: 100%;
+    margin-top: 0%;
+}
+
+/* CONTENEDOR COMIENZA AHORA */
+
+#comienza {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.imgBack {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* IMAGEN COMIENZA AHORA */
+
+#back {
+    width: 80%;
+}
+
+/* TITULOS COMIENZA AHORA*/
+
+#comienza h1 {
+    display: block;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    color: #303C7A;
+    display: block;
+    white-space: nowrap;
+}
+
+#comienza h2 {
+    display: block;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    color: #1071E5;
+    display: block;
+    white-space: nowrap;
+}
+
+/* BOTON COMIENZA AHORA */
+
+.btn-comienza-ahora {
+    background: #1071E5;
+    border: 2px solid #303C7A;
+    border-radius: 15px;
+    color: #ffffff;
+    height: 40px;
+    width: 140px;
+    /* Ajusta el ancho según tus necesidades */
+    transition: 0.2s all;
+    cursor: pointer;
+    text-align: center;
+    line-height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    /* Evita que el texto se envuelva */
+}
+
+
+.comienza-ahora {
+    font-size: 14px;
+    display: inline-block;
+    background: transparent;
+    vertical-align: middle;
+    /* Añadido para centrar verticalmente */
+
+}
+
+.btn-comienza-ahora:hover {
+    background: #1071E5;
+    color: #ffffff;
+    transform: scale(0.93);
+}
+
+/* BANNER PORQUE TRABAJAR CON PROGER*/
+
+#banner2 {
+    width: 100%;
+  
+}
+
+/* CONTENEDOR IMPLEMENTA PROGER*/
+
+#implementa {
+    background-color: #FA7811;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem 0;
+}
+
+/* TITULOS IMPLEMENTA */
+.implementa h1 {
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.proger {
+    font-weight: bold;
+    color: #0A3871;
+}
+
+/* CUADRO REGISTRO CORREO */
+
+.correo {
+    border: none;
+    text-transform: lowercase;
+    height: 40px;
+    font-size: 20px;
+    /*#FA7811*/
+    width: 350px;
+    /* Ajusta el ancho según tus necesidades */
+    text-align: center;
+    line-height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    resize: none;
+    color: #9ba0a6;
+}
+
+.correo:focus {
+    outline: none;
+}
+
+/* BOTON REGISTRO */
+
+.registro {
+    font-size: 14px;
+    display: inline-block;
+    /* Añadido para permitir el centrado horizontal */
+    vertical-align: middle;
+    /* Añadido para centrar verticalmente */
+}
+
+.btn-registro {
+    display: flex;
+    background: #1071E5;
+    border: 2px solid #303C7A;
+    border-radius: 15px;
+    color: #ffffff;
+    height: 40px;
+    width: 140px;
+    /* Ajusta el ancho según tus necesidades */
+    transition: 0.2s all;
+    cursor: pointer;
+    text-align: center;
+    line-height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    /* Evita que el texto se envuelva */
+}
+
+.btn-registro:hover {
+    background: #1071E5;
+    color: #ffffff;
+    transform: scale(0.93);
+}
+
+/* FOOTER */
+
+
+
+.foot {
+    display: flex;
+    width: 100%;
+    background-color: #0A3871;
+    color: #ffffff;
+    justify-content: space-around;
+    min-height: 50px;
+}
+
+.foot #copyright {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+footer nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+footer nav a {
+    color: #ffffff;
+    text-decoration: none;
+    line-height: normal;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: Verdana;
+    transition: all 200ms ease;
+}
+
+footer nav a:hover {
+    color: #f56f3a;
+    border-radius: 5%;
+}
+
+/* LINKS REDES */
+
+footer .links {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 16px;
+}
+
+footer .links a {
+    width: 35px;
+    height: 35px;
+}
+
+footer .links img {
+    width: 35px;
+    height: 35px;
+}
+
+footer .links img:hover {
+    color: #f56f3a;
+    border-radius: 5%;
+}
+
+@media (max-width:1024px) {
+    #cabeza {
+        flex-direction: column;
+        justify-content: center;
+        gap: 0.3rem;
+        align-items: center;
+        height: auto;
+    }
+
+    .about-us {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-us_title {
+        text-align: center;
+    }
+
+    .logo {
+        margin: 0;
+        width: 220px;
+    }
+
+    #comienza {
+        flex-direction: column;
+        gap: 2rem;
+        padding: 2rem;
+    }
+
+    .foot {
+        flex-direction: column;
+        gap: 0.2rem;
+        align-items: center;
+        padding: 0.5rem 0;
+    }
+}
